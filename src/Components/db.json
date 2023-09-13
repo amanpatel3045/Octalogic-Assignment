@@ -1,0 +1,141 @@
+{
+  "info": [
+    {
+      "id": 1,
+      "title": "Total Students Enrolled",
+      "number": "250"
+    },
+    {
+      "id": 2,
+      "title": "Total Courses Offered",
+      "number": "15"
+    },
+    {
+      "id": 3,
+      "title": "Total Revenue Generated",
+      "number": "$3000"
+    },
+    {
+      "id": 4,
+      "title": "Most Popular Course",
+      "number": "Piano"
+    },
+    {
+      "id": 5,
+      "title": "Least Popular Course",
+      "number": "Flute"
+    }
+  ],
+  "latest": [
+    {
+      "id": 1,
+      "enr": "12345",
+      "sname": "John Doe",
+      "cname": "Mathematics",
+      "date": "2023-09-10",
+      "fees": "$150"
+    },
+    {
+      "id": 2,
+      "enr": "54321",
+      "sname": "Jane Smith",
+      "cname": "Physics",
+      "date": "2023-09-11",
+      "fees": "$175"
+    },
+    {
+      "id": 3,
+      "enr": "67890",
+      "sname": "Alice Johnson",
+      "cname": "Chemistry",
+      "date": "2023-09-12",
+      "fees": "$160"
+    },
+    {
+      "id": 4,
+      "enr": "13579",
+      "sname": "Bob Wilson",
+      "cname": "Biology",
+      "date": "2023-09-13",
+      "fees": "$165"
+    }
+  ],
+  "best": [
+    {
+      "id": 1,
+      "enr": "98765",
+      "sname": "Bob Wilson",
+      "cname": "English",
+      "date": "2023-09-15",
+      "fees": "$200",
+      "courses": "5"
+    },
+    {
+      "id": 2,
+      "enr": "23456",
+      "sname": "Eva Brown",
+      "cname": "History",
+      "date": "2023-09-14",
+      "fees": "$180",
+      "courses": "4"
+    },
+    {
+      "id": 3,
+      "enr": "56789",
+      "sname": "David Clark",
+      "cname": "Art",
+      "date": "2023-09-15",
+      "fees": "$190",
+      "courses": "3"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Guitar Lessons",
+      "instructor": "John Smith",
+      "instrument": "Guitar",
+      "date": "Mondays",
+      "fees": "$120",
+      "students": "20",
+      "description": "Learn to play the guitar.",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Piano Lessons",
+      "instructor": "Alice Davis",
+      "instrument": "Piano",
+      "date": "Tuesdays",
+      "fees": "$140",
+      "students": "15",
+      "description": "Learn to play the piano.",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "name": "Painting Classes",
+      "instructor": "Eva Wilson",
+      "instrument": "Paintbrush",
+      "date": "Wednesdays",
+      "fees": "$130",
+      "students": "18",
+      "description": "Explore the world of painting.",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "name": "Dance Workshops",
+      "instructor": "David Clark",
+      "instrument": "Dance",
+      "date": "Thursdays",
+      "fees": "$150",
+      "students": "22",
+      "description": "Get your groove on with dance lessons.",
+      "status": "Active"
+    }
+  ],
+  "bestgrf": {
+    "name": "OctaLogic"
+  }
+}
