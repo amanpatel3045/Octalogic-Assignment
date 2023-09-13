@@ -1,19 +1,200 @@
 {
-  "posts": [
+  "info": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "Total Number Of Students",
+      "number": "220"
+    },
+    {
+      "id": 2,
+      "title": "Total Number Of Courses",
+      "number": "18"
+    },
+    {
+      "id": 3,
+      "title": "Total Amount Earned",
+      "number": "$3000"
+    },
+    {
+      "id": 4,
+      "title": "Best Performing Course",
+      "number": "Piano"
+    },
+    {
+      "id": 5,
+      "title": "Worst Performing Course",
+      "number": "Saxophone"
     }
   ],
-  "comments": [
+  "latest": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "enr": "74538",
+      "sname": "Smith",
+      "cname": "Johnson",
+      "date": "10/13/2023",
+      "fees": "$250"
+    },
+    {
+      "id": 2,
+      "enr": "74346",
+      "sname": "Williams",
+      "cname": "Davis",
+      "date": "10/13/2023",
+      "fees": "$220"
+    },
+    {
+      "id": 3,
+      "enr": "74347",
+      "sname": "Brown",
+      "cname": "Miller",
+      "date": "10/13/2023",
+      "fees": "$180"
+    },
+    {
+      "id": 4,
+      "enr": "74348",
+      "sname": "Jones",
+      "cname": "Garcia",
+      "date": "10/13/2023",
+      "fees": "$200"
+    },
+    {
+      "id": 5,
+      "enr": "74349",
+      "sname": "Davis",
+      "cname": "Rodriguez",
+      "date": "10/13/2023",
+      "fees": "$210"
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "best": [
+    {
+      "id": 1,
+      "enr": "83730",
+      "sname": "Johnson",
+      "cname": "Thomas",
+      "date": "10/14/2023",
+      "fees": "$120",
+      "courses": "4"
+    },
+    {
+      "id": 2,
+      "enr": "74350",
+      "sname": "Wilson",
+      "cname": "Moore",
+      "date": "10/14/2023",
+      "fees": "$150",
+      "courses": "5"
+    },
+    {
+      "id": 3,
+      "enr": "74351",
+      "sname": "Miller",
+      "cname": "Taylor",
+      "date": "10/14/2023",
+      "fees": "$180",
+      "courses": "3"
+    },
+    {
+      "id": 4,
+      "enr": "74352",
+      "sname": "Garcia",
+      "cname": "Anderson",
+      "date": "10/14/2023",
+      "fees": "$200",
+      "courses": "4"
+    },
+    {
+      "id": 5,
+      "enr": "74353",
+      "sname": "Rodriguez",
+      "cname": "Martinez",
+      "date": "10/14/2023",
+      "fees": "$220",
+      "courses": "5"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Piano Classes",
+      "instructor": "Smith",
+      "instrument": "Piano",
+      "date": "Saturday",
+      "fees": "$150",
+      "students": "42",
+      "description": "Piano classes for...",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Violin Classes",
+      "instructor": "Williams",
+      "instrument": "Violin",
+      "date": "Monday",
+      "fees": "$120",
+      "students": "25",
+      "description": "Violin classes for...",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "name": "Saxophone Classes",
+      "instructor": "Brown",
+      "instrument": "Saxophone",
+      "date": "Tuesday",
+      "fees": "$130",
+      "students": "30",
+      "description": "Saxophone classes for...",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "name": "Drums Classes",
+      "instructor": "Jones",
+      "instrument": "Drums",
+      "date": "Wednesday",
+      "fees": "$140",
+      "students": "35",
+      "description": "Drums classes for...",
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "name": "Trumpet Classes",
+      "instructor": "Davis",
+      "instrument": "Trumpet",
+      "date": "Thursday",
+      "fees": "$160",
+      "students": "28",
+      "description": "Trumpet classes for...",
+      "status": "Active"
+    },
+    {
+      "id": 6,
+      "name": "Flute Classes",
+      "instructor": "Wilson",
+      "instrument": "Flute",
+      "date": "Friday",
+      "fees": "$130",
+      "students": "30",
+      "description": "Flute classes for...",
+      "status": "Active"
+    },
+    {
+      "id": 7,
+      "name": "Guitar Classes",
+      "instructor": "Miller",
+      "instrument": "Guitar",
+      "date": "Saturday",
+      "fees": "$150",
+      "students": "32",
+      "description": "Guitar classes for...",
+      "status": "Active"
+    }
+  ],
+  "bestgrf": {
+    "name": "octalogic"
   }
 }
