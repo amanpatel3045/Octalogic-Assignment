@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import data from "../Components/db.json";
 
 const Courses = () => {
   const [courseData, setCourseData] = useState([]);
