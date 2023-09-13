@@ -1,38 +1,31 @@
-import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import "./Register.css";
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import './Login.css'; // Assuming you have a Login.css file
 
-const Register = () => {
+const Login = () => {
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (email === "") {
-      alert("Email is required");
-    } else if (pass === "") {
-      alert("Password is required");
+    const storedEmail = localStorage.getItem("email");
+    const storedPass = localStorage.getItem("pass");
+
+    if (email === storedEmail && pass === storedPass) {
+      alert("Login Successful");
+      // Navigate to a different route or perform any other actions upon successful login
     } else {
-      localStorage.setItem("email", email);
-      localStorage.setItem("pass", pass);
-      alert("Registered Successfully");
-      navigate("/");
+      alert("Invalid credentials");
     }
   };
-  console.log("hjdhw");
-  return (
-  
-    <div className="register-container">
-      <div className="register-content">
-        <img
-          className="logo"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZu9YYxGZL8zDlqs6Nd3ifIFrOrk2AD9upvffkzxF38w&s"
-          alt="Company Logo"
-        />
-        <h2 className="register-heading">Register Your Account</h2>
 
-        <form className="register-form" onSubmit={handleSubmit}>
+  return (
+    <div className="login-container">
+      <div className="login-content">
+        <h2 className="login-heading">Login to Your Account</h2>
+
+        <form className="login-form" onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="email">Email address</label>
             <input
@@ -61,17 +54,17 @@ const Register = () => {
             />
           </div>
 
-          <button type="submit" className="register-button">
-            Sign in
+          <button type="submit" className="login-button">
+            Login
           </button>
         </form>
 
-        <p className="login-link">
-          Already have an account? <Link to="/">Login</Link>
+        <p className="register-link">
+          Don't have an account? <Link to='/register'>Register</Link>
         </p>
       </div>
     </div>
   );
 };
 
-export default Register;
+export default Login;
